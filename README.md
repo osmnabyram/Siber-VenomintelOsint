@@ -19,6 +19,10 @@ A terminal-based OSINT automation tool that brings several popular reconnaissanc
 
 ---
 
+<div align="center">
+<img src="assets/how-it-works.svg" alt="How it works: an animated diagram of the tool's core flow." width="820" />
+</div>
+
 ## Overview
 
 VenomIntel consolidates username, email, website, and image-based open-source intelligence operations under a single menu. Instead of launching each OSINT tool separately and remembering its flags, you drive them all from one interactive interface that handles setup and launching for you.
