@@ -1,0 +1,5 @@
+# Bu araç Linux'ta (Kali) çalışır; metin dosyaları LF satır sonu kullansın.
+* text=auto eol=lf
+*.py text eol=lf
+*.svg text eol=lf
+*.md text eol=lf

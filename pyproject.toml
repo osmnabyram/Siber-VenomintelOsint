@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "venomintel"
+version = "2.0.0"
+description = "OSINT bilgi toplama araci (harici OSINT araclarini tek menude toplar)"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []          # yalnizca Python standart kutuphanesi
+license = { text = "MIT" }
+
+[project.scripts]
+venomintel = "venomintel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["venomintel*"]
